@@ -11,7 +11,8 @@
   "book",
   "transaction_date",
   "status",
-  "amended_from"
+  "amended_from",
+  "full_name"
  ],
  "fields": [
   {
@@ -56,13 +57,19 @@
    "print_hide": 1,
    "read_only": 1,
    "search_index": 1
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "read_only": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2026-02-17 01:01:22.047472",
+ "modified": "2026-02-17 01:10:21.399258",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Loan",
