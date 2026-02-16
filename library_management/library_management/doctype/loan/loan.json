@@ -10,7 +10,8 @@
   "applicant",
   "book",
   "transaction_date",
-  "status"
+  "status",
+  "amended_from"
  ],
  "fields": [
   {
@@ -45,12 +46,23 @@
    "label": "Status",
    "options": "Draft\nReturned\nOverdue",
    "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Loan",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2026-02-17 00:47:19.796808",
+ "modified": "2026-02-17 01:01:22.047472",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Loan",
