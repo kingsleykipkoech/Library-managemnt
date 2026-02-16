@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:BOOK-.#####",
+ "autoname": "format:BOOK-{#####}",
  "creation": "2026-02-17 00:26:23.386367",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -49,7 +49,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-02-17 00:35:36.787429",
+ "modified": "2026-02-17 00:47:18.487360",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Book",
