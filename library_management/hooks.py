@@ -1,8 +1,8 @@
 app_name = "library_management"
 app_title = "Library Management"
-app_publisher = "Practice Group"
-app_description = "Practice app"
-app_email = "admin@example.com"
+app_publisher = "none"
+app_description = "app"
+app_email = "kingsleykoech@gmail.com"
 app_license = "mit"
 
 # Apps
@@ -70,6 +70,9 @@ app_license = "mit"
 # automatically create page for each record of this doctype
 # website_generators = ["Web Page"]
 
+# automatically load and sync documents of this doctype from downstream apps
+# importable_doctypes = [doctype_1]
+
 # Jinja
 # ----------
 
@@ -125,14 +128,6 @@ app_license = "mit"
 # 	"Event": "frappe.desk.doctype.event.event.has_permission",
 # }
 
-# DocType Class
-# ---------------
-# Override standard doctype classes
-
-# override_doctype_class = {
-# 	"ToDo": "custom_app.overrides.CustomToDo"
-# }
-
 # Document Events
 # ---------------
 # Hook on document methods and events
@@ -170,6 +165,14 @@ app_license = "mit"
 # -------
 
 # before_tests = "library_management.install.before_tests"
+
+# Extend DocType Class
+# ------------------------------
+#
+# Specify custom mixins to extend the standard doctype controller.
+# extend_doctype_class = {
+# 	"Task": "library_management.custom.task.CustomTaskMixin"
+# }
 
 # Overriding Methods
 # ------------------------------
